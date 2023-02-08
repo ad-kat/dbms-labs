@@ -1,0 +1,9 @@
+D:\adri210953218\student_registration\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\adri210953218\student_registration\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\adri210953218\student_registration\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\adri210953218\student_registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\adri210953218\student_registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\adri210953218\student_registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\adri210953218\student_registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\adri210953218\student_registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\adri210953218\student_registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
