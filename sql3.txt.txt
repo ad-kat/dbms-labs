@@ -1,0 +1,782 @@
+SQL> create table department(
+  2  deptname varchar(20),
+  3  building varchar(15),
+  4  budget numeric(12,2),
+  5  primary key(deptname));
+
+Table created.
+
+SQL> insert into department values('CSE','AB5',1660000);
+
+1 row created.
+
+SQL> insert into department values('ICT','AB5',1660000);
+
+1 row created.
+
+SQL> insert into department values('MME','AB1',1335000);
+
+1 row created.
+
+SQL> insert into department values('MTE','AB1',1335000);
+
+1 row created.
+
+SQL> insert into department values('CIE','AB2',1335000);
+
+1 row created.
+
+SQL> insert into department values('BME','AB2',1035000);
+
+1 row created.
+
+SQL> insert into department values('BIO','AB2',1035000);
+
+1 row created.
+
+SQL> insert into department values('ECE','AB1',1200000);
+
+1 row created.
+
+SQL> insert into department values('ELE','AB1',1200000);
+
+1 row created.
+
+SQL> insert into department values('ICE','AB5',1035000);
+
+1 row created.
+
+SQL> insert into department values('MAT','AB1',500000);
+
+1 row created.
+
+SQL> insert into department values('AAE','POLYTECHNIC',500000);
+
+1 row created.
+
+SQL> create table instructor(
+  2  name varchar(30),deptname varchar(20),
+  3  id int,Salary numeric(12,2),
+  4  primary key(deptname));
+
+Table created.
+
+SQL> insert into instructor values('Vandana Tripathi','CSE',10211,135000);
+
+1 row created.
+
+SQL> insert into instructor values('navika vyas','CSE',40413,135000);
+insert into instructor values('navika vyas','CSE',40413,135000)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015018) violated
+
+
+SQL> delete from instructor
+  2  ;
+
+1 row deleted.
+
+SQL> drop table instructor
+  2  ;
+
+Table dropped.
+
+SQL> create table instructor(
+  2  name varchar(30),deptname varchar(20),
+  3  id int,Salary numeric(12,2),
+  4  primary key(id),
+  5  check(Salary>0));
+
+Table created.
+
+SQL> insert into instructor values('Vandana Tripathi','CSE',10211,135000);
+
+1 row created.
+
+SQL> insert into instructor values('navika vyas','CSE',40413,135000);
+
+1 row created.
+
+SQL> insert into instructor values('Susheel Sinha','ICT',13228,135000);
+
+1 row created.
+
+SQL> insert into instructor values('Sushil Singh','ICT',12136,135000);
+
+1 row created.
+
+SQL> insert into instructor values('Anil Vedi','ECE',46637,125000);
+
+1 row created.
+
+SQL> insert into instructor values('Kirti Agarwala','ECE',46112,125000);
+
+1 row created.
+
+SQL> insert into instructor values('Stuti Shetty','ELE'46701,125000);
+insert into instructor values('Stuti Shetty','ELE'46701,125000)
+                                                  *
+ERROR at line 1:
+ORA-00917: missing comma
+
+
+SQL> insert into instructor values('Stuti Shetty','ELE',46701,125000);
+
+1 row created.
+
+SQL> insert into instructor values('Piyush Anand','ELE',46621,125000);
+
+1 row created.
+
+SQL> insert into instructor values('Sanskriti Gautam','BIO',21663,115000);
+
+1 row created.
+
+SQL> insert into instructor values('Anusha Srivastava','BIO',21550,115000);
+
+1 row created.
+
+SQL> insert into instructor values('Richa Chadda','BME',21210,120000);
+
+1 row created.
+
+SQL> insert into instructor values('Khushagra Agarwal','BME',21572,120000);
+
+1 row created.
+
+SQL> insert into instructor values('Rohit Shetty','CIE',19130,115000);
+
+1 row created.
+
+SQL> insert into instructor values('Anasya Jain','CIE',19133,115000);
+
+1 row created.
+
+SQL> insert into instructor values('Yaqub Menon','MME',19113,120000);
+
+1 row created.
+
+SQL> insert into instructor values('Suneeta Williams','MTE',19012,120000);
+
+1 row created.
+
+SQL> insert into instructor values('Elakshi Gupta','AAE',19221,115000);
+
+1 row created.
+
+SQL> create table PERSON (
+  2  driver_id# varchar(30),
+  3   name varchar(50),
+  4   Address varchar(100),
+  5  primary key(driver_id#)
+  6  );
+
+Table created.
+
+SQL> insert into PERSON values(19221,'Harish','Gomtinagar');
+
+1 row created.
+
+SQL> insert into PERSON values(19011,'Abdul','Kapoorthala');
+
+1 row created.
+
+SQL> insert into PERSON values(19843,'Gurpreet','Jankipuram');
+
+1 row created.
+
+SQL> insert into PERSON values(18001,'Angad','Aliganj');
+
+1 row created.
+
+SQL> insert into PERSON values(18347,'Murad','Alambagh');
+
+1 row created.
+
+SQL> Select *
+  2  from PERSON;
+
+DRIVER_ID#
+------------------------------
+NAME
+--------------------------------------------------
+ADDRESS
+--------------------------------------------------------------------------------
+19221
+Harish
+Gomtinagar
+
+19011
+Abdul
+Kapoorthala
+
+DRIVER_ID#
+------------------------------
+NAME
+--------------------------------------------------
+ADDRESS
+--------------------------------------------------------------------------------
+
+19843
+Gurpreet
+Jankipuram
+
+18001
+Angad
+
+DRIVER_ID#
+------------------------------
+NAME
+--------------------------------------------------
+ADDRESS
+--------------------------------------------------------------------------------
+Aliganj
+
+18347
+Murad
+Alambagh
+
+
+SQL> alter table PERSON modify Address varchar(15);
+
+Table altered.
+
+SQL> Select *
+  2  from PERSON;
+
+DRIVER_ID#
+------------------------------
+NAME                                               ADDRESS
+-------------------------------------------------- ---------------
+19221
+Harish                                             Gomtinagar
+
+19011
+Abdul                                              Kapoorthala
+
+19843
+Gurpreet                                           Jankipuram
+
+
+DRIVER_ID#
+------------------------------
+NAME                                               ADDRESS
+-------------------------------------------------- ---------------
+18001
+Angad                                              Aliganj
+
+18347
+Murad                                              Alambagh
+
+
+SQL> alter table PERSON modify driver_id# varchar(5);
+
+Table altered.
+
+SQL> alter table PERSON modify name varchar(10);
+
+Table altered.
+
+SQL> Select *
+  2  from PERSON;
+
+DRIVE NAME       ADDRESS
+----- ---------- ---------------
+19221 Harish     Gomtinagar
+19011 Abdul      Kapoorthala
+19843 Gurpreet   Jankipuram
+18001 Angad      Aliganj
+18347 Murad      Alambagh
+
+SQL> create table CAR (
+  2  regno varchar(8),
+  3   model varchar(10),
+  4   Year int ,
+  5  primary key(regno)
+  6  );
+
+Table created.
+
+SQL>
+SQL>
+SQL> create table ACCIDENT (
+  2  report_number int,
+  3  accd_date  date,
+  4  location varchar(20)
+  5  primary key(report_number) );
+primary key(report_number) )
+           *
+ERROR at line 5:
+ORA-00907: missing right parenthesis
+
+
+SQL>
+SQL>
+SQL> create table OWNS (
+  2  driver_id# varchar(30),
+  3  regno varchar(8)
+  4  primary key(driver_id#),
+  5  foreign key(regno)
+  6   );
+primary key(driver_id#),
+           *
+ERROR at line 4:
+ORA-00907: missing right parenthesis
+
+
+SQL>
+SQL>
+SQL> create table PARTICIPATED (
+  2  driver_id# varchar(30),
+  3  regno varchar(20),
+  4  report_number int,
+  5  damage_amount int,
+  6  primary key(driver_id#),
+  7  foreign key(regno,report_number) );
+foreign key(regno,report_number) )
+                                 *
+ERROR at line 7:
+ORA-00905: missing keyword
+
+
+SQL> create table ACCIDENT (
+  2  report_number int,
+  3  accd_date  date,
+  4  location varchar(20),
+  5  primary key(report_number) );
+
+Table created.
+
+SQL> create table OWNS (
+  2  driver_id# varchar(30),
+  3  regno varchar(8),
+  4  primary key(driver_id#),
+  5  foreign key(regno)
+  6   );
+ )
+ *
+ERROR at line 6:
+ORA-00905: missing keyword
+
+
+SQL> create table OWNS(
+  2  driver_id# varchar(5),
+  3  regno varchar(20),
+  4  primary key(driver_id),
+  5  FOREIGN KEY(driver_id)references PERSON(driver_id#));
+primary key(driver_id),
+            *
+ERROR at line 4:
+ORA-00904: "DRIVER_ID": invalid identifier
+
+
+SQL> create table OWNS(
+  2  driver_id# varchar(5),
+  3  regno varchar(20),
+  4  primary key(driver_id#),
+  5  FOREIGN KEY(driver_id#)references PERSON(driver_id#));
+
+Table created.
+
+SQL> create table PARTICIPATED (
+  2  driver_id# varchar(30),
+  3  regno varchar(20),
+  4  report_number int,
+  5  damage_amount int,
+  6  primary key(driver_id#),
+  7  foreign key(regno,report_number)references CAR(regno),ACCIDENT(report_number) );
+foreign key(regno,report_number)references CAR(regno),ACCIDENT(report_number) )
+                                                     *
+ERROR at line 7:
+ORA-02256: number of referencing columns must match referenced columns
+
+
+SQL> create table PARTICIPATED (
+  2  driver_id# varchar(30),
+  3  regno varchar(20),
+  4  report_number int,
+  5  damage_amount int,
+  6  primary key(driver_id#),
+  7  foreign key(regno )references CAR(regno),
+  8  foreign key(report_number)references ACCIDENT(report_number) );
+
+Table created.
+
+SQL> commit
+  2  ;
+
+Commit complete.
+
+SQL> insert into CAR values('A2045', 'Nexon', 2021);
+
+1 row created.
+
+SQL> insert into CAR values('Y8473', 'Duster', 2018);
+
+1 row created.
+
+SQL> insert into CAR values('D2014', 'Nano', 2023);
+
+1 row created.
+
+SQL> insert into CAR values('S1475', 'Baleno', 2016);
+
+1 row created.
+
+SQL> insert into CAR values('R2778', 'Scorpio', 2021);
+
+1 row created.
+
+SQL> insert into CAR values('K0325', 'Brezza', 2023);
+
+1 row created.
+
+SQL> insert into CAR values('I0002', 'Creta', 2020);
+
+1 row created.
+
+SQL> insert into CAR values('S2078', 'Venue', 2019);
+
+1 row created.
+
+SQL> insert into ACCIDENT values(110, '2019-05-05', 'Alambagh');
+insert into ACCIDENT values(110, '2019-05-05', 'Alambagh')
+                                 *
+ERROR at line 1:
+ORA-01861: literal does not match format string
+
+
+SQL> insert into ACCIDENT values(107, '2020-09-14', 'JNU road');
+insert into ACCIDENT values(107, '2020-09-14', 'JNU road')
+                                 *
+ERROR at line 1:
+ORA-01861: literal does not match format string
+
+
+SQL> insert into ACCIDENT values(120, '2018-02-16', 'Alambagh');
+insert into ACCIDENT values(120, '2018-02-16', 'Alambagh')
+                                 *
+ERROR at line 1:
+ORA-01861: literal does not match format string
+
+
+SQL> insert into ACCIDENT values(33, '2019-11-17', 'Jankipuram');
+insert into ACCIDENT values(33, '2019-11-17', 'Jankipuram')
+                                *
+ERROR at line 1:
+ORA-01861: literal does not match format string
+
+
+SQL> insert into ACCIDENT values(191, '2022-04-12', 'Kapoorthala');
+insert into ACCIDENT values(191, '2022-04-12', 'Kapoorthala')
+                                 *
+ERROR at line 1:
+ORA-01861: literal does not match format string
+
+
+SQL> insert into ACCIDENT values(356, '2021-03-21', 'Aliganj');
+insert into ACCIDENT values(356, '2021-03-21', 'Aliganj')
+                                 *
+ERROR at line 1:
+ORA-01861: literal does not match format string
+
+
+SQL> insert into ACCIDENT values(110, date '2019-05-05', 'Alambagh');
+
+1 row created.
+
+SQL> insert into ACCIDENT values(107,date '2020-09-14', 'JNU road');
+
+1 row created.
+
+SQL> insert into ACCIDENT values(120,date '2018-02-16', 'Alambagh');
+
+1 row created.
+
+SQL> insert into ACCIDENT values(33,date '2019-11-17', 'Jankipuram');
+
+1 row created.
+
+SQL> insert into ACCIDENT values(191,date '2022-04-12', 'Kapoorthala');
+
+1 row created.
+
+SQL> insert into ACCIDENT values(356, date '2021-03-21', 'Aliganj');
+
+1 row created.
+
+SQL> insert into OWNS values('19324', 'I0002');
+insert into OWNS values('19324', 'I0002')
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (CCE218.SYS_C0015098) violated - parent key not
+found
+
+
+SQL> insert into OWNS values('18001', 'Y8473');
+
+1 row created.
+
+SQL> insert into OWNS values('53147', 'S2078');
+insert into OWNS values('53147', 'S2078')
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (CCE218.SYS_C0015098) violated - parent key not
+found
+
+
+SQL> insert into OWNS values('18347', 'S1475');
+
+1 row created.
+
+SQL> insert into OWNS values('19021', 'D2014');
+insert into OWNS values('19021', 'D2014')
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (CCE218.SYS_C0015098) violated - parent key not
+found
+
+
+SQL> insert into OWNS values('98531', 'K1475');
+insert into OWNS values('98531', 'K1475')
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (CCE218.SYS_C0015098) violated - parent key not
+found
+
+
+SQL> insert into OWNS values('19011', 'R2778');
+
+1 row created.
+
+SQL> insert into OWNS values('19221', 'I0002');
+
+1 row created.
+
+SQL> insert into OWNS values('18001', 'Y8473');
+insert into OWNS values('18001', 'Y8473')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015097) violated
+
+
+SQL> insert into OWNS values('18347', 'S2078');
+insert into OWNS values('18347', 'S2078')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015097) violated
+
+
+SQL> insert into OWNS values('18347', 'S1475');
+insert into OWNS values('18347', 'S1475')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015097) violated
+
+
+SQL> insert into OWNS values('19011', 'D2014');
+insert into OWNS values('19011', 'D2014')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015097) violated
+
+
+SQL> insert into OWNS values('18001', 'K1475');
+insert into OWNS values('18001', 'K1475')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015097) violated
+
+
+SQL> insert into OWNS values('19011', 'R2778');
+insert into OWNS values('19011', 'R2778')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015097) violated
+
+
+SQL>
+SQL> select *
+  2  from CAR;
+
+REGNO    MODEL            YEAR
+-------- ---------- ----------
+A2045    Nexon            2021
+Y8473    Duster           2018
+D2014    Nano             2023
+S1475    Baleno           2016
+R2778    Scorpio          2021
+K0325    Brezza           2023
+I0002    Creta            2020
+S2078    Venue            2019
+
+8 rows selected.
+
+SQL> select *
+  2  from OWNS;
+
+DRIVE REGNO
+----- --------------------
+18001 Y8473
+18347 S1475
+19011 R2778
+19221 I0002
+
+SQL> insert into OWNS values('19843', 'D2014');
+
+1 row created.
+
+SQL> select *
+  2  from OWNS;
+
+DRIVE REGNO
+----- --------------------
+18001 Y8473
+18347 S1475
+19011 R2778
+19221 I0002
+19843 D2014
+
+SQL> insert into PARTICIPATED values('19221', 'I0002', 110, 5000);
+
+1 row created.
+
+SQL> insert into PARTICIPATED values('18001', 'Y8473', 33, 35000);
+
+1 row created.
+
+SQL> insert into PARTICIPATED values('19843', 'D2014', 107, 15000);
+
+1 row created.
+
+SQL> insert into PARTICIPATED values('18001', 'Y8473', 191, 19000);
+insert into PARTICIPATED values('18001', 'Y8473', 191, 19000)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015099) violated
+
+
+SQL> insert into PARTICIPATED values('19011', 'R2778', 356, 17000);
+
+1 row created.
+
+SQL> insert into PARTICIPATED values('19221', 'I0002', 120, 3000);
+insert into PARTICIPATED values('19221', 'I0002', 120, 3000)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CCE218.SYS_C0015099) violated
+
+
+SQL> alter table PARTICIPATED modify driver_id# varchar(5)
+  2  ;
+
+Table altered.
+
+SQL> alter table PARTICIPATED modify regno varchar(8);
+
+Table altered.
+
+SQL> insert into PARTICIPATED values('18347', 'Y8473', 191, 19000);
+
+1 row created.
+
+SQL> select *
+  2  from Participated;
+
+DRIVE REGNO    REPORT_NUMBER DAMAGE_AMOUNT
+----- -------- ------------- -------------
+19221 I0002              110          5000
+18001 Y8473               33         35000
+19843 D2014              107         15000
+19011 R2778              356         17000
+18347 Y8473              191         19000
+
+SQL> commit;
+
+Commit complete.
+
+SQL> UPDATE PARTICIPATED SET DAMAGE_AMOUNT = 25000 WHERE (REPORT_NUMBER = 33 AND REGNO = 'Y8473');
+
+1 row updated.
+
+SQL> select *
+  2  from Participated;
+
+DRIVE REGNO    REPORT_NUMBER DAMAGE_AMOUNT
+----- -------- ------------- -------------
+19221 I0002              110          5000
+18001 Y8473               33         25000
+19843 D2014              107         15000
+19011 R2778              356         17000
+18347 Y8473              191         19000
+
+SQL> select*
+  2  from PERSON;
+
+DRIVE NAME       ADDRESS
+----- ---------- ---------------
+19221 Harish     Gomtinagar
+19011 Abdul      Kapoorthala
+19843 Gurpreet   Jankipuram
+18001 Angad      Aliganj
+18347 Murad      Alambagh
+
+SQL> select*
+  2  from CAR;
+
+REGNO    MODEL            YEAR
+-------- ---------- ----------
+A2045    Nexon            2021
+Y8473    Duster           2018
+D2014    Nano             2023
+S1475    Baleno           2016
+R2778    Scorpio          2021
+K0325    Brezza           2023
+I0002    Creta            2020
+S2078    Venue            2019
+
+8 rows selected.
+
+SQL> select*
+  2  from OWNS;
+
+DRIVE REGNO
+----- --------------------
+18001 Y8473
+18347 S1475
+19011 R2778
+19221 I0002
+19843 D2014
+
+SQL> select*
+  2  from ACCIDENT;
+
+REPORT_NUMBER ACCD_DATE LOCATION
+------------- --------- --------------------
+          110 05-MAY-19 Alambagh
+          107 14-SEP-20 JNU road
+          120 16-FEB-18 Alambagh
+           33 17-NOV-19 Jankipuram
+          191 12-APR-22 Kapoorthala
+          356 21-MAR-21 Aliganj
+
+6 rows selected.
+
+SQL> select*
+  2  from PARTICIPATED;
+
+DRIVE REGNO    REPORT_NUMBER DAMAGE_AMOUNT
+----- -------- ------------- -------------
+19221 I0002              110          5000
+18001 Y8473               33         25000
+19843 D2014              107         15000
+19011 R2778              356         17000
+18347 Y8473              191         19000
+
+SQL> commit
+  2  ;
+
+Commit complete.
+
+SQL>
