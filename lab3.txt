@@ -1,0 +1,81 @@
+create table PERSON (
+driver_id# varchar(30),
+ name varchar(50),
+ Address varchar(100),
+primary key(driver_id#)
+);
+insert into PERSON values(19221,'Harish','Gomtinagar');
+insert into PERSON values(19011,'Abdul','Kapoorthala');
+insert into PERSON values(19843,'Gurpreet','Jankipuram');
+insert into PERSON values(18001,'Angad','Aliganj');
+insert into PERSON values(18347,'Murad','Alambagh');
+
+create table CAR (
+regno varchar(8),
+ model varchar(10),
+ Year int ,
+primary key(regno)
+);
+
+insert into CAR values('A2045', 'Nexon', 2021);
+insert into CAR values('Y8473', 'Duster', 2018);
+insert into CAR values('D2014', 'Nano', 2023);
+insert into CAR values('S1475', 'Baleno', 2022);
+insert into CAR values('R2778', 'Scorpio', 2021);
+insert into CAR values('K0325', 'Brezza', 2023);
+insert into CAR values('I0002', 'Creta', 2020);
+insert into CAR values('S2078', 'Venue', 2019);
+
+create table ACCIDENT (
+report_number int,
+accd_date  date, 
+location varchar(20),
+primary key(report_number) );
+
+
+insert into ACCIDENT values(110, date '2019-05-05', 'Alambagh');
+insert into ACCIDENT values(107,date '2020-09-14', 'JNU road');
+insert into ACCIDENT values(120,date '2018-02-16', 'Alambagh');
+insert into ACCIDENT values(33,date '2019-11-17', 'Jankipuram');
+insert into ACCIDENT values(191,date '2022-04-12', 'Kapoorthala');
+insert into ACCIDENT values(356, date '2021-03-21', 'Aliganj');
+
+
+create table OWNS(
+driver_id# varchar(5),s
+regno varchar(20),
+primary key(driver_id#),
+FOREIGN KEY(driver_id#)references PERSON(driver_id#));
+
+insert into OWNS values('19221', 'I0002');
+insert into OWNS values('18001', 'Y8473');
+insert into OWNS values('19843', 'D2014');
+insert into OWNS values('18347', 'S1475');
+insert into OWNS values('19011', 'R2778');
+
+
+create table PARTICIPATED (
+driver_id# varchar(30),
+regno varchar(20),
+report_number int, 
+damage_amount int,
+primary key(driver_id#),
+foreign key(regno )references CAR(regno),
+foreign key(report_number)references ACCIDENT(report_number) );
+
+
+insert into PARTICIPATED values('19221', 'I0002', 110, 5000);
+insert into PARTICIPATED values('18001', 'Y8473', 33, 35000);
+insert into PARTICIPATED values('19843', 'D2014', 107, 15000);
+insert into PARTICIPATED values('18347', 'Y8473', 191, 19000);
+insert into PARTICIPATED values('19011', 'R2778', 356, 17000);
+
+
+
+
+
+
+
+//3
+UPDATE PARTICIPATED SET DAMAGE_AMOUNT = 25000 WHERE (REPORT_NUMBER = 33 AND REGNO = 'Y8473');
+
