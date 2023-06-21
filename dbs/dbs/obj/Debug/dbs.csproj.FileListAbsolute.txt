@@ -1,0 +1,103 @@
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\bin\Debug\dbs.exe.config
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\bin\Debug\dbs.exe
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\bin\Debug\dbs.pdb
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\dbs.csprojResolveAssemblyReference.cache
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\dbs.aarti_dbms.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\dbs.Properties.Resources.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\dbs.csproj.GenerateResource.Cache
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\dbs.exe
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\dbs.pdb
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Customer.Curr_items.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Customer.Form1.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Customer.Form2.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Seller.Curr_Orders.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Seller.Item_det.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Seller.Seller_details.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Shipper.Form1.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Shipper.Form2.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Shipper.Form3.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Sign_in.forgotpass.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Admin.Form1.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Admin.Form2.resources
+C:\Users\katya\OneDrive\Desktop\dbs bs\dbs\dbs\obj\Debug\Admin.Form3.resources
+C:\Users\DELL\Desktop\dbs\dbs\bin\Debug\dbs.exe.config
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\dbs.exe
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\dbs.pdb
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\dbs.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Customer.Curr_items.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Seller.Curr_Orders.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Customer.Form1.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Customer.Form2.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Sign_in.forgotpass.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Admin.Form1.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Shipper.Form1.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Admin.Form2.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Shipper.Form2.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Admin.Form3.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Shipper.Form3.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\dbs.aarti_dbms.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Seller.Item_det.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\dbs.Properties.Resources.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\Seller.Seller_details.resources
+C:\Users\DELL\Desktop\dbs\dbs\obj\Debug\dbs.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\dbs\dbs\bin\Debug\dbs.exe
+C:\Users\DELL\Desktop\dbs\dbs\bin\Debug\dbs.pdb
+C:\Users\DELL\Desktop\dbs\dbs\bin\Debug\Oracle.DataAccess.EntityFramework.dll
+C:\Users\DELL\Desktop\dbs\dbs\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\DELL\Desktop\dbs\dbs\bin\Debug\Oracle.DataAccess.dll
+C:\db\dbs\dbs\dbs\bin\Debug\dbs.exe.config
+C:\db\dbs\dbs\dbs\obj\Debug\dbs.exe
+C:\db\dbs\dbs\dbs\obj\Debug\dbs.pdb
+C:\db\dbs\dbs\dbs\obj\Debug\dbs.csprojResolveAssemblyReference.cache
+C:\db\dbs\dbs\dbs\bin\Debug\dbs.exe
+C:\db\dbs\dbs\dbs\bin\Debug\dbs.pdb
+C:\db\dbs\dbs\dbs\bin\Debug\Oracle.DataAccess.dll
+C:\db\dbs\dbs\dbs\bin\Debug\Oracle.DataAccess.EntityFramework.dll
+C:\db\dbs\dbs\dbs\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\db\dbs\dbs\dbs\obj\Debug\Customer.Curr_items.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Seller.Curr_Orders.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Customer.Form1.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Customer.Form2.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Sign_in.forgotpass.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Admin.Form1.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Shipper.Form1.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Admin.Form2.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Shipper.Form2.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Admin.Form3.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Shipper.Form3.resources
+C:\db\dbs\dbs\dbs\obj\Debug\dbs.aarti_dbms.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Seller.Item_det.resources
+C:\db\dbs\dbs\dbs\obj\Debug\dbs.Properties.Resources.resources
+C:\db\dbs\dbs\dbs\obj\Debug\Seller.Seller_details.resources
+C:\db\dbs\dbs\dbs\obj\Debug\dbs.Signup.resources
+C:\db\dbs\dbs\dbs\obj\Debug\dbs.csproj.GenerateResource.Cache
+C:\Users\DELL\Downloads\dbsproject\dbs\dbs\bin\Debug\dbs.exe.config
+C:\Users\DELL\Downloads\dbsproject\dbs\dbs\obj\Debug\dbs.exe
+C:\Users\DELL\Downloads\dbsproject\dbs\dbs\obj\Debug\dbs.pdb
+C:\Users\DELL\Downloads\dbsproject\dbs\dbs\obj\Debug\dbs.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\bin\Debug\dbs.exe.config
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.exe
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.pdb
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Seller.Curr_Orders.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.cust_add.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Customer.Form1.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Customer.Form2.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Sign_in.forgotpass.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Admin.Form1.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Shipper.Form1.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Admin.Form2.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Shipper.Form2.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Admin.Form3.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Shipper.Form3.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.aarti_dbms.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Seller.Item_det.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.Properties.Resources.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\Seller.Seller_details.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.Signup.resources
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\obj\Debug\dbs.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\bin\Debug\dbs.exe
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\bin\Debug\dbs.pdb
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\bin\Debug\Oracle.DataAccess.dll
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\bin\Debug\Oracle.DataAccess.EntityFramework.dll
+C:\Users\DELL\Desktop\dbsproject\dbs\dbs\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
